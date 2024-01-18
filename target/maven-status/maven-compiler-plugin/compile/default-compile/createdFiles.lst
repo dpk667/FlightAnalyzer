@@ -1,0 +1,4 @@
+org\example\util\FileReader.class
+org\example\analysis\FlightAnalyzer.class
+org\example\AppRunner.class
+org\example\flight\Flight.class
