@@ -4,6 +4,13 @@ This Java program analyzes flight data from a json file, providing insights such
 
 ## Installation
 
+## You must have the following presets installed for this program to run successfully:
+1. JDK. You can download JDK from offical website Oracle: https://www.oracle.com/java/technologies/downloads/
+or use OpneJDK for your operation system
+2. Maven. Download and install Maven from offical website: https://maven.apache.org/download.cgi
+
+__After installing the JDK and Maven follow these steps to run the program__
+
 Clone the repository:
 ```bash
 git clone https://github.com/dpk667/FlightAnalyzer.git
@@ -16,7 +23,7 @@ cd flight-analyzer
 
 Compile the program:
 ```bash
-javac org/example/AppRunner.java
+mvn compile
 ```
 
 ## Usage
@@ -24,7 +31,7 @@ javac org/example/AppRunner.java
 Run the program from the command line with the following command:
 
 ```bash
-java -cp . org.example.AppRunner path/to/tickets.json
+java -jar target/your_project_name.jar "your/path/to/file/tickets.json"
 ```
 Replace __path/to/tickets.json__ with the actual path to your __json file containing flight data__
 
